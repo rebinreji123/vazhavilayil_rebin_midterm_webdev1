@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 0px;
+   font-family: 'Inter', sans-serif;
+   font-weight: bold;
+}
+
+img, embed, object, video, picture {
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+input, textarea {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+section h2, section h3, section p {
+    padding-left: 15px;
+}
+
+.spacer {
+    margin-top: 60px;
+}
+
+.txt-spacer {
+    margin-top: 30px;
+}
+.inquiry-box {
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ffffff; /* Dark grey border */
+    border-radius: 5px;
+    background-color: #817e7e; /* Dark grey background */
+    color: #fff; /* White text color */
+}
+
+.inquiry-box input[type="text"],
+.inquiry-box input[type="email"],
+.inquiry-box textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fffefe; /* Dark grey background for input fields */
+    color: #fff; /* White text color for input fields */
+}
+
+.inquiry-box textarea {
+    height: 100px;
+}
+
+.inquiry-box input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #757474; /* Dark grey background for submit button */
+    color: #fff; /* White text color for submit button */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.inquiry-box input[type="submit"]:hover {
+    background-color: #222; /* Darker shade of grey on hover */
+}
