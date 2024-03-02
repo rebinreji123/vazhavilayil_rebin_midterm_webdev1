@@ -120,6 +120,25 @@ html {
   height: 120px;
 
 }
+/* Add this CSS to your existing CSS */
+
+.enquiry-box {
+  background-color: rgb(108, 112, 114);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 320px;
+}
+
+/* Adjust styles for different screen sizes as needed */
+@media screen and (max-width: 767px) {
+  .enquiry-box {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+}
 
   
   .full-width-grid-con {
