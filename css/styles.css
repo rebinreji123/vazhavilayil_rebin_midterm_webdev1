@@ -75,5 +75,5 @@ section h2, section h3, section p {
 }
 
 .inquiry-box input[type="submit"]:hover {
-    background-color: #222; /* Darker shade of grey on hover */
+    background-color: #2a2a2a; /* Darker shade of grey on hover */
 }
